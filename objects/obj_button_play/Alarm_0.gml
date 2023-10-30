@@ -2,4 +2,10 @@
 // Você pode escrever seu código neste editor
 
 
-instance_destroy();
+
+
+
+// Inherit the parent event
+event_inherited();
+
+room_goto(rm_game);
